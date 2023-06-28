@@ -1,7 +1,7 @@
 # https://help.github.com/en/articles/metadata-syntax-for-github-actions
 name: 'Setup Fastly CLI'
 description: 'A GitHub Action for setting up and configuring the Fastly command line interface'
-author: 'softprops'
+author: 'shuheiokuda0704'
 env:
   'FASTLY_API_TOKEN': 'Fastly API token'
 runs:

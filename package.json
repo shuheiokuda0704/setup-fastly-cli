@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/softprops/setup-fastly-cli.git"
+    "url": "git+https://github.com/shuheiokuda0704/setup-fastly-cli.git"
   },
   "keywords": [
     "actions"

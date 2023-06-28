@@ -16,7 +16,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Setup Fastly CLI
-      uses: softprops/setup-fastly-cli@v1
+      uses: shuheiokuda0704/setup-fastly-cli@v1
       env:
         FASTLY_API_TOKEN: ${{ secrets.FASTLY_API_TOKEN }}
     - name: Enjoy

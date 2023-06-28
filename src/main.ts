@@ -50,7 +50,7 @@ async function run() {
     }
 
     await install(version, os.platform());
-    await exec.exec("fastly", ["configure", "--token", fastlyToken]);
+    await exec.exec("fastly", ["config", "--token", fastlyToken]);
   } catch (error) {
     setFailed(error.message);
   }
